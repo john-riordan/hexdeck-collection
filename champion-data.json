@@ -1,0 +1,2351 @@
+{  
+    "type":"champion",
+    "version":"6.8.1",
+    "data":{  
+        "Thresh":{  
+            "id":412,
+            "key":"Thresh",
+            "name":"Thresh",
+            "title":"the Chain Warden",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+            	"primary":"support",
+            	"secondary":null
+            }
+        },
+        "Aatrox":{  
+            "id":266,
+            "key":"Aatrox",
+            "name":"Aatrox",
+            "title":"the Darkin Blade",
+            "info":{  
+                "attack":6,
+                "magic":4,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":"jungle"
+            }
+        },
+        "Tryndamere":{  
+            "id":23,
+            "key":"Tryndamere",
+            "name":"Tryndamere",
+            "title":"the Barbarian King",
+            "info":{  
+                "attack":9,
+                "magic":1,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":"jungle"
+            }
+        },
+        "Gragas":{  
+            "id":79,
+            "key":"Gragas",
+            "name":"Gragas",
+            "title":"the Rabble Rouser",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+            	"primary":"jungle",
+            	"secondary":"top"
+            }
+        },
+        "Cassiopeia":{  
+            "id":69,
+            "key":"Cassiopeia",
+            "name":"Cassiopeia",
+            "title":"the Serpent's Embrace",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":10
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":null
+            }
+        },
+        "AurelionSol":{  
+            "id":136,
+            "key":"AurelionSol",
+            "name":"Aurelion Sol",
+            "title":"The Star Forger",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":"jungle"
+            }
+        },
+        "Ryze":{  
+            "id":13,
+            "key":"Ryze",
+            "name":"Ryze",
+            "title":"the Rogue Mage",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":"mid"
+            }
+        },
+        "Poppy":{  
+            "id":78,
+            "key":"Poppy",
+            "name":"Poppy",
+            "title":"Keeper of the Hammer",
+            "info":{  
+                "attack":8,
+                "magic":2,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":"support"
+            }
+        },
+        "Sion":{  
+            "id":14,
+            "key":"Sion",
+            "name":"Sion",
+            "title":"The Undead Juggernaut",
+            "info":{  
+                "attack":6,
+                "magic":4,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":"jungle"
+            }
+        },
+        "Jhin":{  
+            "id":202,
+            "key":"Jhin",
+            "name":"Jhin",
+            "title":"the Virtuoso",
+            "info":{  
+                "attack":9,
+                "magic":1,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+            	"primary":"bot",
+            	"secondary":null
+            }
+        },
+        "Annie":{  
+            "id":1,
+            "key":"Annie",
+            "name":"Annie",
+            "title":"the Dark Child",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":"support"
+            }
+        },
+        "Nautilus":{  
+            "id":111,
+            "key":"Nautilus",
+            "name":"Nautilus",
+            "title":"the Titan of the Depths",
+            "info":{  
+                "attack":3,
+                "magic":6,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":"support"
+            }
+        },
+        "Karma":{  
+            "id":43,
+            "key":"Karma",
+            "name":"Karma",
+            "title":"the Enlightened One",
+            "info":{  
+                "attack":1,
+                "magic":9,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+            	"primary":"support",
+            	"secondary":"mid"
+            }
+        },
+        "Lux":{  
+            "id":99,
+            "key":"Lux",
+            "name":"Lux",
+            "title":"the Lady of Luminosity",
+            "info":{  
+                "attack":1,
+                "magic":9,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":"support"
+            }
+        },
+        "Ahri":{  
+            "id":103,
+            "key":"Ahri",
+            "name":"Ahri",
+            "title":"the Nine-Tailed Fox",
+            "info":{  
+                "attack":0,
+                "magic":7,
+                "true":3,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":null
+            }
+        },
+        "Olaf":{  
+            "id":2,
+            "key":"Olaf",
+            "name":"Olaf",
+            "title":"the Berserker",
+            "info":{  
+                "attack":7,
+                "magic":0,
+                "true":3,
+                "armor":5,
+                "mr":5,
+                "difficulty":3
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":"jungle"
+            }
+        },
+        "Viktor":{  
+            "id":112,
+            "key":"Viktor",
+            "name":"Viktor",
+            "title":"the Machine Herald",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":9
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":null
+            }
+        },
+        "Singed":{  
+            "id":27,
+            "key":"Singed",
+            "name":"Singed",
+            "title":"the Mad Chemist",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":null
+            }
+        },
+        "Garen":{  
+            "id":86,
+            "key":"Garen",
+            "name":"Garen",
+            "title":"The Might of Demacia",
+            "info":{  
+                "attack":6,
+                "magic":3,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":null
+            }
+        },
+        "Anivia":{  
+            "id":34,
+            "key":"Anivia",
+            "name":"Anivia",
+            "title":"the Cryophoenix",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":10
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":null
+            }
+        },
+        "Maokai":{  
+            "id":57,
+            "key":"Maokai",
+            "name":"Maokai",
+            "title":"the Twisted Treant",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":3
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":"jungle"
+            }
+        },
+        "Lissandra":{  
+            "id":127,
+            "key":"Lissandra",
+            "name":"Lissandra",
+            "title":"the Ice Witch",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":"top"
+            }
+        },
+        "Morgana":{  
+            "id":25,
+            "key":"Morgana",
+            "name":"Morgana",
+            "title":"Fallen Angel",
+            "info":{  
+                "attack":1,
+                "magic":9,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":1
+            },
+            "positions": {
+            	"primary":"support",
+            	"secondary":"mid"
+            }
+        },
+        "Fizz":{  
+            "id":105,
+            "key":"Fizz",
+            "name":"Fizz",
+            "title":"the Tidal Trickster",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":"top",
+            	"extra": ["jungle"]
+            }
+        },
+        "Evelynn":{  
+            "id":28,
+            "key":"Evelynn",
+            "name":"Evelynn",
+            "title":"the Widowmaker",
+            "info":{  
+                "attack":3,
+                "magic":6,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":10
+            },
+            "positions": {
+            	"primary":"jungle",
+            	"secondary":null
+            }
+        },
+        "Zed":{  
+            "id":238,
+            "key":"Zed",
+            "name":"Zed",
+            "title":"the Master of Shadows",
+            "info":{  
+                "attack":9,
+                "magic":1,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":10
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":null
+            }
+        },
+        "Heimerdinger":{  
+            "id":74,
+            "key":"Heimerdinger",
+            "name":"Heimerdinger",
+            "title":"the Revered Inventor",
+            "info":{  
+                "attack":1,
+                "magic":9,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":"top"
+            }
+        },
+        "Rumble":{  
+            "id":68,
+            "key":"Rumble",
+            "name":"Rumble",
+            "title":"the Mechanized Menace",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":10
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":"jungle"
+            }
+        },
+        "Sona":{  
+            "id":37,
+            "key":"Sona",
+            "name":"Sona",
+            "title":"Maven of the Strings",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+            	"primary":"support",
+            	"secondary":null
+            }
+        },
+        "Mordekaiser":{  
+            "id":82,
+            "key":"Mordekaiser",
+            "name":"Mordekaiser",
+            "title":"the Iron Revenant",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":"mid"
+            }
+        },
+        "KogMaw":{  
+            "id":96,
+            "key":"KogMaw",
+            "name":"Kog'Maw",
+            "title":"the Mouth of the Abyss",
+            "info":{  
+                "attack":5,
+                "magic":4,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+            	"primary":"bot",
+            	"secondary":null
+            }
+        },
+        "Katarina":{  
+            "id":55,
+            "key":"Katarina",
+            "name":"Katarina",
+            "title":"the Sinister Blade",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":null
+            }
+        },
+        "Lulu":{  
+            "id":117,
+            "key":"Lulu",
+            "name":"Lulu",
+            "title":"the Fae Sorceress",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+            	"primary":"support",
+            	"secondary":"mid",
+            	"extra": ["top"]
+            }
+        },
+        "Ashe":{  
+            "id":22,
+            "key":"Ashe",
+            "name":"Ashe",
+            "title":"the Frost Archer",
+            "info":{  
+                "attack":8,
+                "magic":1,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+            	"primary":"bot",
+            	"secondary":null
+            }
+        },
+        "Karthus":{  
+            "id":30,
+            "key":"Karthus",
+            "name":"Karthus",
+            "title":"the Deathsinger",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":null
+            }
+        },
+        "Alistar":{  
+            "id":12,
+            "key":"Alistar",
+            "name":"Alistar",
+            "title":"the Minotaur",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":7,
+                "mr":3,
+                "difficulty":8
+            },
+            "positions": {
+            	"primary":"support",
+            	"secondary":null
+            }
+        },
+        "Darius":{  
+            "id":122,
+            "key":"Darius",
+            "name":"Darius",
+            "title":"the Hand of Noxus",
+            "info":{  
+                "attack":8,
+                "magic":0,
+                "true":2,
+                "armor":7,
+                "mr":3,
+                "difficulty":2
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":null
+            }
+        },
+        "Vayne":{  
+            "id":67,
+            "key":"Vayne",
+            "name":"Vayne",
+            "title":"the Night Hunter",
+            "info":{  
+                "attack":7,
+                "magic":0,
+                "true":3,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+            	"primary":"bot",
+            	"secondary":null
+            }
+        },
+        "Varus":{  
+            "id":110,
+            "key":"Varus",
+            "name":"Varus",
+            "title":"the Arrow of Retribution",
+            "info":{  
+                "attack":8,
+                "magic":2,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":2
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":"bot"
+            }
+        },
+        "Udyr":{  
+            "id":77,
+            "key":"Udyr",
+            "name":"Udyr",
+            "title":"the Spirit Walker",
+            "info":{  
+                "attack":5,
+                "magic":4,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+            	"primary":"jungle",
+            	"secondary":null
+            }
+        },
+        "Leona":{  
+            "id":89,
+            "key":"Leona",
+            "name":"Leona",
+            "title":"the Radiant Dawn",
+            "info":{  
+                "attack":3,
+                "magic":7,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+            	"primary":"support",
+            	"secondary":null
+            }
+        },
+        "Jayce":{  
+            "id":126,
+            "key":"Jayce",
+            "name":"Jayce",
+            "title":"the Defender of Tomorrow",
+            "info":{  
+                "attack":8,
+                "magic":2,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":"mid"
+            }
+        },
+        "Syndra":{  
+            "id":134,
+            "key":"Syndra",
+            "name":"Syndra",
+            "title":"the Dark Sovereign",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":null
+            }
+        },
+        "Pantheon":{  
+            "id":80,
+            "key":"Pantheon",
+            "name":"Pantheon",
+            "title":"the Artisan of War",
+            "info":{  
+                "attack":8,
+                "magic":2,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":"jungle"
+            }
+        },
+        "Riven":{  
+            "id":92,
+            "key":"Riven",
+            "name":"Riven",
+            "title":"the Exile",
+            "info":{  
+                "attack":10,
+                "magic":0,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":null
+            }
+        },
+        "Khazix":{  
+            "id":121,
+            "key":"Khazix",
+            "name":"Kha'Zix",
+            "title":"the Voidreaver",
+            "info":{  
+                "attack":9,
+                "magic":1,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+            	"primary":"jungle",
+            	"secondary":null
+            }
+        },
+        "Corki":{  
+            "id":42,
+            "key":"Corki",
+            "name":"Corki",
+            "title":"the Daring Bombardier",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+            	"primary":"bot",
+            	"secondary":"mid"
+            }
+        },
+        "Caitlyn":{  
+            "id":51,
+            "key":"Caitlyn",
+            "name":"Caitlyn",
+            "title":"the Sheriff of Piltover",
+            "info":{  
+                "attack":9,
+                "magic":1,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+            	"primary":"bot",
+            	"secondary":null
+            }
+        },
+        "Azir":{  
+            "id":268,
+            "key":"Azir",
+            "name":"Azir",
+            "title":"the Emperor of the Sands",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":10
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":null
+            }
+        },
+        "Nidalee":{  
+            "id":76,
+            "key":"Nidalee",
+            "name":"Nidalee",
+            "title":"the Bestial Huntress",
+            "info":{  
+                "attack":1,
+                "magic":9,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+            	"primary":"jungle",
+            	"secondary":null
+            }
+        },
+        "Kennen":{  
+            "id":85,
+            "key":"Kennen",
+            "name":"Kennen",
+            "title":"the Heart of the Tempest",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":"mid"
+            }
+        },
+        "Galio":{  
+            "id":3,
+            "key":"Galio",
+            "name":"Galio",
+            "title":"the Sentinel's Sorrow",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":1,
+                "mr":9,
+                "difficulty":3
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":"top"
+            }
+        },
+        "Veigar":{  
+            "id":45,
+            "key":"Veigar",
+            "name":"Veigar",
+            "title":"the Tiny Master of Evil",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":null
+            }
+        },
+        "Bard":{  
+            "id":432,
+            "key":"Bard",
+            "name":"Bard",
+            "title":"the Wandering Caretaker",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":9
+            },
+            "positions": {
+            	"primary":"support",
+            	"secondary":null
+            }
+        },
+        "Gnar":{  
+            "id":150,
+            "key":"Gnar",
+            "name":"Gnar",
+            "title":"the Missing Link",
+            "info":{  
+                "attack":8,
+                "magic":2,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":null
+            }
+        },
+        "Malzahar":{  
+            "id":90,
+            "key":"Malzahar",
+            "name":"Malzahar",
+            "title":"the Prophet of the Void",
+            "info":{  
+                "attack":1,
+                "magic":9,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+            	"primary":"mid",
+            	"secondary":null
+            }
+        },
+        "Graves":{  
+            "id":104,
+            "key":"Graves",
+            "name":"Graves",
+            "title":"the Outlaw",
+            "info":{  
+                "attack":10,
+                "magic":0,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":3
+            },
+            "positions": {
+            	"primary":"jungle",
+            	"secondary":"top",
+            	"extra": ["bot"]
+            }
+        },
+        "Vi":{  
+            "id":254,
+            "key":"Vi",
+            "name":"Vi",
+            "title":"the Piltover Enforcer",
+            "info":{  
+                "attack":9,
+                "magic":0,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+            	"primary":"jungle",
+            	"secondary":null
+            }
+        },
+        "Kayle":{  
+            "id":10,
+            "key":"Kayle",
+            "name":"Kayle",
+            "title":"The Judicator",
+            "info":{  
+                "attack":4,
+                "magic":6,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":"mid"
+            }
+        },
+        "Irelia":{  
+            "id":39,
+            "key":"Irelia",
+            "name":"Irelia",
+            "title":"the Will of the Blades",
+            "info":{  
+                "attack":7,
+                "magic":1,
+                "true":2,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":null
+            }
+        },
+        "LeeSin":{  
+            "id":64,
+            "key":"LeeSin",
+            "name":"Lee Sin",
+            "title":"the Blind Monk",
+            "info":{  
+                "attack":8,
+                "magic":2,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+            	"primary":"jungle",
+            	"secondary":null
+            }
+        },
+        "Illaoi":{  
+            "id":420,
+            "key":"Illaoi",
+            "name":"Illaoi",
+            "title":"the Kraken Priestess",
+            "info":{  
+                "attack":10,
+                "magic":0,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+            	"primary":"top",
+            	"secondary":null
+            }
+        },
+        "Elise":{  
+            "id":60,
+            "key":"Elise",
+            "name":"Elise",
+            "title":"the Spider Queen",
+            "info":{  
+                "attack":1,
+                "magic":9,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":9
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":null
+            }
+        },
+        "Volibear":{  
+            "id":106,
+            "key":"Volibear",
+            "name":"Volibear",
+            "title":"the Thunder's Roar",
+            "info":{  
+                "attack":5,
+                "magic":4,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":3
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":"top"
+            }
+        },
+        "Nunu":{  
+            "id":20,
+            "key":"Nunu",
+            "name":"Nunu",
+            "title":"the Yeti Rider",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":null
+            }
+        },
+        "TwistedFate":{  
+            "id":4,
+            "key":"TwistedFate",
+            "name":"Twisted Fate",
+            "title":"the Card Master",
+            "info":{  
+                "attack":1,
+                "magic":9,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":9
+            },
+            "positions": {
+                "primary":"mid",
+                "secondary":null
+            }
+        },
+        "Jax":{  
+            "id":24,
+            "key":"Jax",
+            "name":"Jax",
+            "title":"Grandmaster at Arms",
+            "info":{  
+                "attack":7,
+                "magic":3,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":"jungle"
+            }
+        },
+        "Shyvana":{  
+            "id":102,
+            "key":"Shyvana",
+            "name":"Shyvana",
+            "title":"the Half-Dragon",
+            "info":{  
+                "attack":4,
+                "magic":5,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":null
+            }
+        },
+        "Kalista":{  
+            "id":429,
+            "key":"Kalista",
+            "name":"Kalista",
+            "title":"the Spear of Vengeance",
+            "info":{  
+                "attack":9,
+                "magic":1,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+                "primary":"bot",
+                "secondary":null
+            }
+        },
+        "DrMundo":{  
+            "id":36,
+            "key":"DrMundo",
+            "name":"Dr. Mundo",
+            "title":"the Madman of Zaun",
+            "info":{  
+                "attack":3,
+                "magic":7,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":"jungle"
+            }
+        },
+        "TahmKench":{  
+            "id":223,
+            "key":"TahmKench",
+            "name":"Tahm Kench",
+            "title":"the River King",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+                "primary":"support",
+                "secondary":"top"
+            }
+        },
+        "Diana":{  
+            "id":131,
+            "key":"Diana",
+            "name":"Diana",
+            "title":"Scorn of the Moon",
+            "info":{  
+                "attack":1,
+                "magic":9,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+                "primary":"mid",
+                "secondary":"jungle"
+            }
+        },
+        "Brand":{  
+            "id":63,
+            "key":"Brand",
+            "name":"Brand",
+            "title":"the Burning Vengeance",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+                "primary":"mid",
+                "secondary":"support"
+            }
+        },
+        "Sejuani":{  
+            "id":113,
+            "key":"Sejuani",
+            "name":"Sejuani",
+            "title":"the Winter's Wrath",
+            "info":{  
+                "attack":1,
+                "magic":8,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":null
+            }
+        },
+        "Vladimir":{  
+            "id":8,
+            "key":"Vladimir",
+            "name":"Vladimir",
+            "title":"the Crimson Reaper",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":"mid"
+            }
+        },
+        "Zac":{  
+            "id":154,
+            "key":"Zac",
+            "name":"Zac",
+            "title":"the Secret Weapon",
+            "info":{  
+                "attack":1,
+                "magic":8,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":"top"
+            }
+        },
+        "RekSai":{  
+            "id":421,
+            "key":"RekSai",
+            "name":"Rek'Sai",
+            "title":"the Void Burrower",
+            "info":{  
+                "attack":6,
+                "magic":3,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":3
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":null
+            }
+        },
+        "Quinn":{  
+            "id":133,
+            "key":"Quinn",
+            "name":"Quinn",
+            "title":"Demacia's Wings",
+            "info":{  
+                "attack":9,
+                "magic":1,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":"jungle"
+            }
+        },
+        "Akali":{  
+            "id":84,
+            "key":"Akali",
+            "name":"Akali",
+            "title":"the Fist of Shadow",
+            "info":{  
+                "attack":4,
+                "magic":6,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":"mid"
+            }
+        },
+        "Tristana":{  
+            "id":18,
+            "key":"Tristana",
+            "name":"Tristana",
+            "title":"the Yordle Gunner",
+            "info":{  
+                "attack":8,
+                "magic":2,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+                "primary":"bot",
+                "secondary":null
+            }
+        },
+        "Hecarim":{  
+            "id":120,
+            "key":"Hecarim",
+            "name":"Hecarim",
+            "title":"the Shadow of War",
+            "info":{  
+                "attack":7,
+                "magic":2,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":"top"
+            }
+        },
+        "Sivir":{  
+            "id":15,
+            "key":"Sivir",
+            "name":"Sivir",
+            "title":"the Battle Mistress",
+            "info":{  
+                "attack":10,
+                "magic":0,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+                "primary":"bot",
+                "secondary":null
+            }
+        },
+        "Lucian":{  
+            "id":236,
+            "key":"Lucian",
+            "name":"Lucian",
+            "title":"the Purifier",
+            "info":{  
+                "attack":9,
+                "magic":1,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+                "primary":"bot",
+                "secondary":null
+            }
+        },
+        "Rengar":{  
+            "id":107,
+            "key":"Rengar",
+            "name":"Rengar",
+            "title":"the Pridestalker",
+            "info":{  
+                "attack":8,
+                "magic":2,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":null
+            }
+        },
+        "Warwick":{  
+            "id":19,
+            "key":"Warwick",
+            "name":"Warwick",
+            "title":"the Blood Hunter",
+            "info":{  
+                "attack":3,
+                "magic":6,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":3
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":null
+            }
+        },
+        "Skarner":{  
+            "id":72,
+            "key":"Skarner",
+            "name":"Skarner",
+            "title":"the Crystal Vanguard",
+            "info":{  
+                "attack":6,
+                "magic":3,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":null
+            }
+        },
+        "Malphite":{  
+            "id":54,
+            "key":"Malphite",
+            "name":"Malphite",
+            "title":"Shard of the Monolith",
+            "info":{  
+                "attack":3,
+                "magic":7,
+                "true":0,
+                "armor":8,
+                "mr":2,
+                "difficulty":2
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":null
+            }
+        },
+        "Yasuo":{  
+            "id":157,
+            "key":"Yasuo",
+            "name":"Yasuo",
+            "title":"the Unforgiven",
+            "info":{  
+                "attack":8,
+                "magic":2,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":10
+            },
+            "positions": {
+                "primary":"mid",
+                "secondary":"top"
+            }
+        },
+        "Xerath":{  
+            "id":101,
+            "key":"Xerath",
+            "name":"Xerath",
+            "title":"the Magus Ascendant",
+            "info":{  
+                "attack":1,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+                "primary":"mid",
+                "secondary":null
+            }
+        },
+        "Teemo":{  
+            "id":17,
+            "key":"Teemo",
+            "name":"Teemo",
+            "title":"the Swift Scout",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":null
+            }
+        },
+        "Renekton":{  
+            "id":58,
+            "key":"Renekton",
+            "name":"Renekton",
+            "title":"the Butcher of the Sands",
+            "info":{  
+                "attack":8,
+                "magic":2,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":3
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":null
+            }
+        },
+        "Nasus":{  
+            "id":75,
+            "key":"Nasus",
+            "name":"Nasus",
+            "title":"the Curator of the Sands",
+            "info":{  
+                "attack":6,
+                "magic":4,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":null
+            }
+
+        },
+        "Draven":{  
+            "id":119,
+            "key":"Draven",
+            "name":"Draven",
+            "title":"the Glorious Executioner",
+            "info":{  
+                "attack":10,
+                "magic":0,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+                "primary":"bot",
+                "secondary":null
+            }
+        },
+        "Shaco":{  
+            "id":35,
+            "key":"Shaco",
+            "name":"Shaco",
+            "title":"the Demon Jester",
+            "info":{  
+                "attack":4,
+                "magic":5,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":null
+            }
+        },
+        "Swain":{  
+            "id":50,
+            "key":"Swain",
+            "name":"Swain",
+            "title":"the Master Tactician",
+            "info":{  
+                "attack":1,
+                "magic":9,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+                "primary":"mid",
+                "secondary":"top"
+            }
+        },
+        "Ziggs":{  
+            "id":115,
+            "key":"Ziggs",
+            "name":"Ziggs",
+            "title":"the Hexplosives Expert",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+                "primary":"mid",
+                "secondary":null
+            }
+        },
+        "Talon":{  
+            "id":91,
+            "key":"Talon",
+            "name":"Talon",
+            "title":"the Blade's Shadow",
+            "info":{  
+                "attack":9,
+                "magic":1,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+                "primary":"mid",
+                "secondary":null
+            }
+        },
+        "Janna":{  
+            "id":40,
+            "key":"Janna",
+            "name":"Janna",
+            "title":"the Storm's Fury",
+            "info":{  
+                "attack":3,
+                "magic":7,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+                "primary":"support",
+                "secondary":null
+            }
+        },
+        "Ekko":{  
+            "id":245,
+            "key":"Ekko",
+            "name":"Ekko",
+            "title":"the Boy Who Shattered Time",
+            "info":{  
+                "attack":3,
+                "magic":7,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":"mid"
+            }
+        },
+        "Orianna":{  
+            "id":61,
+            "key":"Orianna",
+            "name":"Orianna",
+            "title":"the Lady of Clockwork",
+            "info":{  
+                "attack":1,
+                "magic":9,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+                "primary":"mid",
+                "secondary":null
+            }
+        },
+        "Fiora":{  
+            "id":114,
+            "key":"Fiora",
+            "name":"Fiora",
+            "title":"the Grand Duelist",
+            "info":{  
+                "attack":7,
+                "magic":1,
+                "true":2,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":null
+            }
+        },
+        "FiddleSticks":{  
+            "id":9,
+            "key":"FiddleSticks",
+            "name":"Fiddlesticks",
+            "title":"the Harbinger of Doom",
+            "info":{  
+                "attack":0,
+                "magic":10,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":9
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":null
+            }
+        },
+        "Rammus":{  
+            "id":33,
+            "key":"Rammus",
+            "name":"Rammus",
+            "title":"the Armordillo",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":9
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":"top"
+            }
+        },
+        "Chogath":{  
+            "id":31,
+            "key":"Chogath",
+            "name":"Cho'Gath",
+            "title":"the Terror of the Void",
+            "info":{  
+                "attack":1,
+                "magic":7,
+                "true":2,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":"mid"
+            }
+        },
+        "Leblanc":{  
+            "id":7,
+            "key":"Leblanc",
+            "name":"LeBlanc",
+            "title":"the Deceiver",
+            "info":{  
+                "attack":1,
+                "magic":9,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":9
+            },
+            "positions": {
+                "primary":"mid",
+                "secondary":null
+            }
+        },
+        "Zilean":{  
+            "id":26,
+            "key":"Zilean",
+            "name":"Zilean",
+            "title":"the Chronokeeper",
+            "info":{  
+                "attack":1,
+                "magic":9,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+                "primary":"support",
+                "secondary":"mid"
+            }
+        },
+        "Soraka":{  
+            "id":16,
+            "key":"Soraka",
+            "name":"Soraka",
+            "title":"the Starchild",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":3
+            },
+            "positions": {
+                "primary":"support",
+                "secondary":null
+            }
+        },
+        "Nocturne":{  
+            "id":56,
+            "key":"Nocturne",
+            "name":"Nocturne",
+            "title":"the Eternal Nightmare",
+            "info":{  
+                "attack":8,
+                "magic":2,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":null
+            }
+        },
+        "Jinx":{  
+            "id":222,
+            "key":"Jinx",
+            "name":"Jinx",
+            "title":"the Loose Cannon",
+            "info":{  
+                "attack":9,
+                "magic":1,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+                "primary":"bot",
+                "secondary":null
+            }
+        },
+        "Yorick":{  
+            "id":83,
+            "key":"Yorick",
+            "name":"Yorick",
+            "title":"the Gravedigger",
+            "info":{  
+                "attack":8,
+                "magic":2,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":null
+            }
+        },
+        "Urgot":{  
+            "id":6,
+            "key":"Urgot",
+            "name":"Urgot",
+            "title":"the Headsman's Pride",
+            "info":{  
+                "attack":9,
+                "magic":1,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":"mid",
+                "extra": ["bot"]
+            }
+        },
+        "Kindred":{  
+            "id":203,
+            "key":"Kindred",
+            "name":"Kindred",
+            "title":"The Eternal Hunters",
+            "info":{  
+                "attack":8,
+                "magic":1,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":null
+            }
+        },
+        "MissFortune":{  
+            "id":21,
+            "key":"MissFortune",
+            "name":"Miss Fortune",
+            "title":"the Bounty Hunter",
+            "info":{  
+                "attack":8,
+                "magic":2,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":1
+            },
+            "positions": {
+                "primary":"bot",
+                "secondary":null
+            }
+        },
+        "MonkeyKing":{  
+            "id":62,
+            "key":"MonkeyKing",
+            "name":"Wukong",
+            "title":"the Monkey King",
+            "info":{  
+                "attack":9,
+                "magic":1,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":3
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":"jungle"
+            }
+        },
+        "Blitzcrank":{  
+            "id":53,
+            "key":"Blitzcrank",
+            "name":"Blitzcrank",
+            "title":"the Great Steam Golem",
+            "info":{  
+                "attack":3,
+                "magic":7,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+                "primary":"support",
+                "secondary":null
+            }
+        },
+        "Shen":{  
+            "id":98,
+            "key":"Shen",
+            "name":"Shen",
+            "title":"the Eye of Twilight",
+            "info":{  
+                "attack":5,
+                "magic":5,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":"support"
+            }
+        },
+        "Braum":{  
+            "id":201,
+            "key":"Braum",
+            "name":"Braum",
+            "title":"the Heart of the Freljord",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":3
+            },
+            "positions": {
+                "primary":"support",
+                "secondary":null
+            }
+        },
+        "XinZhao":{  
+            "id":5,
+            "key":"XinZhao",
+            "name":"Xin Zhao",
+            "title":"the Seneschal of Demacia",
+            "info":{  
+                "attack":7,
+                "magic":3,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":2
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":null
+            }
+        },
+        "Twitch":{  
+            "id":29,
+            "key":"Twitch",
+            "name":"Twitch",
+            "title":"the Plague Rat",
+            "info":{  
+                "attack":8,
+                "magic":0,
+                "true":2,
+                "armor":5,
+                "mr":5,
+                "difficulty":6
+            },
+            "positions": {
+                "primary":"bot",
+                "secondary":null
+            }
+        },
+        "MasterYi":{  
+            "id":11,
+            "key":"MasterYi",
+            "name":"Master Yi",
+            "title":"the Wuju Bladesman",
+            "info":{  
+                "attack":6,
+                "magic":2,
+                "true":2,
+                "armor":5,
+                "mr":5,
+                "difficulty":4
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":null
+            }
+        },
+        "Taric":{  
+            "id":44,
+            "key":"Taric",
+            "name":"Taric",
+            "title":"the Shield of Valoran",
+            "info":{  
+                "attack":3,
+                "magic":7,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":3
+            },
+            "positions": {
+                "primary":"support",
+                "secondary":null
+            }
+        },
+        "Amumu":{  
+            "id":32,
+            "key":"Amumu",
+            "name":"Amumu",
+            "title":"the Sad Mummy",
+            "info":{  
+                "attack":1,
+                "magic":8,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":3
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":null
+            }
+        },
+        "Gangplank":{  
+            "id":41,
+            "key":"Gangplank",
+            "name":"Gangplank",
+            "title":"the Saltwater Scourge",
+            "info":{  
+                "attack":7,
+                "magic":2,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":9
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":"mid"
+            }
+        },
+        "Trundle":{  
+            "id":48,
+            "key":"Trundle",
+            "name":"Trundle",
+            "title":"the Troll King",
+            "info":{  
+                "attack":7,
+                "magic":3,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+                "primary":"top",
+                "secondary":"support"
+            }
+        },
+        "Kassadin":{  
+            "id":38,
+            "key":"Kassadin",
+            "name":"Kassadin",
+            "title":"the Void Walker",
+            "info":{  
+                "attack":1,
+                "magic":9,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+                "primary":"mid",
+                "secondary":null
+            }
+        },
+        "Velkoz":{  
+            "id":161,
+            "key":"Velkoz",
+            "name":"Vel'Koz",
+            "title":"the Eye of the Void",
+            "info":{  
+                "attack":0,
+                "magic":9,
+                "true":1,
+                "armor":5,
+                "mr":5,
+                "difficulty":8
+            },
+            "positions": {
+                "primary":"mid",
+                "secondary":"support"
+            }
+        },
+        "Zyra":{  
+            "id":143,
+            "key":"Zyra",
+            "name":"Zyra",
+            "title":"Rise of the Thorns",
+            "info":{  
+                "attack":1,
+                "magic":9,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+                "primary":"support",
+                "secondary":"mid"
+            }
+        },
+        "Nami":{  
+            "id":267,
+            "key":"Nami",
+            "name":"Nami",
+            "title":"the Tidecaller",
+            "info":{  
+                "attack":2,
+                "magic":8,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+                "primary":"support",
+                "secondary":null
+            }
+        },
+        "JarvanIV":{  
+            "id":59,
+            "key":"JarvanIV",
+            "name":"Jarvan IV",
+            "title":"the Exemplar of Demacia",
+            "info":{  
+                "attack":8,
+                "magic":2,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":5
+            },
+            "positions": {
+                "primary":"jungle",
+                "secondary":"top"
+            }
+        },
+        "Ezreal":{  
+            "id":81,
+            "key":"Ezreal",
+            "name":"Ezreal",
+            "title":"the Prodigal Explorer",
+            "info":{  
+                "attack":7,
+                "magic":3,
+                "true":0,
+                "armor":5,
+                "mr":5,
+                "difficulty":7
+            },
+            "positions": {
+                "primary":"bot",
+                "secondary":"mid"
+            }
+        }
+    }
+}
