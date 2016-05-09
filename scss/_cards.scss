@@ -32,10 +32,21 @@
   // }
 }
 .card-wrap {
-  position: relative;
+  position: absolute;
   width: 290px;
   height: 400px;
   padding: 15px;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    right: 15px;
+    box-shadow: 0 0px 30px 20px rgba(0, 0, 0, 0.7);
+    z-index: -2;
+  }
 }
 .card-main {
   position: relative;
@@ -85,26 +96,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    opacity: 0;
+    // opacity: 0;
+    transform: scale(0.9);
     transition: 0.5s ease-in-out;
   }
   .stats-left {
     left: -15px;
-    transform: translateX(5px);
 
-    .card:hover & {
-      opacity: 1;
-      transform: translateX(0);
-    }
   }
   .stats-right {
     right: -15px;
-    transform: translateX(-5px);
-
-    .card:hover & {
-      opacity: 1;
-      transform: translateX(0);
-    }
   }
   .stat {
     position: relative;

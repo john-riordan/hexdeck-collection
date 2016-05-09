@@ -3,3 +3,9 @@ input[type='text'] {
   border: 1px solid $gold;
   background: transparent;
 }
+
+#summonerForm {
+  .cards-loaded & {
+    display: none;
+  }
+}
