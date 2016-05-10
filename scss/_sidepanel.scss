@@ -17,7 +17,7 @@
 
 .sidepanel {
   width: 270px;
-  height: 400px;
+  height: 380px;
   border: 2px solid #573f17;
   background: $darkBlue;
   z-index: 99999;
@@ -46,7 +46,7 @@
   }
 
   .summoner-name {
-    margin: 0.5em 0 0.2em;
+    margin: 0.8em 0 0.6em;
     text-align: center;
     font-size: 2.2em;
     letter-spacing: 1px;
@@ -55,6 +55,10 @@
   	-webkit-user-drag: none;
   	-webkit-user-select: none;
   	-ms-user-select: none;
+
+    .try {
+      text-align: left;
+    }
   }
 
   .difficulty-select {
@@ -110,14 +114,17 @@
   	-ms-user-select: none;
   }
   .count-all {
-    margin-bottom: 0.4em;
+    margin-bottom: 0.6em;
   }
   .count-title {
     color: #2B3946;
-    margin-bottom: 0.4em;
+    margin-bottom: 0em;
+    font-size: 1.1em;
   }
   .value {
     font-size: 2.2em;
+    font-family: 'beaufortregular', 'Georgia', serif;
+  	font-weight: normal;
   }
 }
 
@@ -167,9 +174,8 @@
   line-height: 1.4em;
   width: 300px;
   position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99999;
+  bottom: 0;
+  right: 0;
 
   a {
     font-weight: 600;

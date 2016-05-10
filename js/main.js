@@ -5,6 +5,11 @@ var h = window.innerHeight;
 var wInner = w - 260;
 var hInner = h - 370;
 
+$('.click-try').on('click', function() {
+  $('input[name="summonerName"]').val($('.try-value').text());
+  $('#summonerForm').submit();
+});
+
 $('input[name="summonerName"]').keyup(function(){
     if ($(this).val().length > 2) {
       $('.summoner-submit-frame').addClass('show');

@@ -54,12 +54,15 @@
     margin-bottom: 0.2em;
   }
   p {
-    max-width: 440px;
-    font-size: 1.1em;
+    max-width: 430px;
     line-height: 1.3em;
     text-align: center;
     margin-bottom: 3em;
     margin-top: 0;
+  }
+  .click-try {
+    border-bottom: 1px solid transparentize($gold, 0.4);;
+    cursor: pointer;
   }
   div {
     margin-bottom: 2em;

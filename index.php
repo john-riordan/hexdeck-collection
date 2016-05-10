@@ -43,10 +43,12 @@
               <input type="text" name="summonerName" id="" placeholder="Summoner Name" autocomplete="off">
             </div>
             <div>
+              <p class="try">No League account or any Mastery?<br/><span class="click-try">Try '<span class="try-value">Rio Loves You</span>'</span></p>
+            </div>
+            <div>
               <div class="summoner-submit-frame">
                 <input class="summoner-submit" type="submit" value="Submit">
               </div>
-
             </div>
           </form>
         </div>
@@ -68,11 +70,11 @@
             <h2 class="summoner-name text-gradient"></h2>
             <div class="card-count">
               <div class="count-all">
-                <div class="count-title">Cards you've collected</div>
+                <div class="count-title">Total Cards</div>
                 <div class="value text-gradient"></div>
               </div>
               <div class="count-rares">
-                <div class="count-title">Rares you've collected</div>
+                <div class="count-title">Rares</div>
                 <div class="value text-gradient"></div>
               </div>
             </div>
