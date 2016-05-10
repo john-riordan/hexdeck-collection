@@ -1,6 +1,6 @@
 <?php
-$apiKeyRiot = 'a23d3d3f-d47d-4f8e-a9ce-ca2b0cef2cef';
-$apiKeyChampionGG = 'f4a93ce5c56171894c562a00ecf4e5fd';
+// $apiKeyRiot = 'a23d3d3f-d47d-4f8e-a9ce-ca2b0cef2cef';
+include('config.php');
 
 $errors         	 	 = array();      // array to hold validation errors
 $summonerData   	 	 = array();      // array to pass back data
