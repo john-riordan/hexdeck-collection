@@ -92,7 +92,7 @@ $('#summonerForm').submit(function(event) {
                       '+(def > 0 ? '<div class="stat stat-def" title="Defense Value"><div class="stat-value text-gradient">'+def+'</div></div>': '')+'\
                     </div>\
                   </div>\
-                  <div class="card-difficulty">\
+                  <div class="card-difficulty" title="Cost/Difficulty Value">\
                     <div class="card-difficulty-frame">\
                       <div class="difficulty-value">'+ob.info.difficulty+'</div>\
                     </div>\
@@ -140,7 +140,7 @@ $('#summonerForm').submit(function(event) {
                       '+(def > 0 ? '<div class="stat stat-def" title="Defense Value"><div class="stat-value text-gradient">'+def+'</div></div>': '')+'\
                     </div>\
                   </div>\
-                  <div class="card-difficulty">\
+                  <div class="card-difficulty" title="Cost/Difficulty Value">\
                     <div class="card-difficulty-frame">\
                       <div class="difficulty-value">'+ob.info.difficulty+'</div>\
                     </div>\

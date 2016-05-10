@@ -4,3 +4,5 @@ config.php
 config.codekit
 scss/.sass-cache
 scss/.sass-cache/*
+
+*.scssc
