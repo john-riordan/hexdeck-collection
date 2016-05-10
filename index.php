@@ -15,28 +15,38 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <form id="summonerForm" action="">
-          <div>
-            <label for="region">Region</label>
-            <select class="" name="summonerRegion">
-              <option value="na">NA</option>
-              <option value="euw">EUW</option>
-              <option value="eune">EUNE</option>
-              <option value="br">BR</option>
-              <option value="oce">OCE</option>
-              <option value="lan">LAN</option>
-              <option value="las">LAS</option>
-              <option value="kr">KR</option>
-              <option value="ru">RU</option>
-              <option value="tr">TR</option>
-              <option value="jp">JP</option>
-            </select>
-          </div>
-          <div>
-            <label for="summonerName">Summoner Name</label>
-            <input type="text" name="summonerName" id="" placeholder="Summoner name">
-          </div>
-        </form>
+        <div class="summoner-form-frame">
+          <form id="summonerForm" class="summoner-form" action="">
+            <h1 class="form-title text-gradient">Hexdeck Collection</h1>
+            <p>Mastery Champions in League and earn their cards! If you manage. Once you've reached mastery level 4 youll earn thier 'base' card. If you manage to hit mastery 5 and earn an S on them you'll earn a <strong>rare</strong> version of the card. Start collecting!</p>
+            <div>
+              <label for="region">Region</label>
+              <select class="" name="summonerRegion">
+                <option value="na">NA</option>
+                <option value="euw">EUW</option>
+                <option value="eune">EUNE</option>
+                <option value="br">BR</option>
+                <option value="oce">OCE</option>
+                <option value="lan">LAN</option>
+                <option value="las">LAS</option>
+                <option value="kr">KR</option>
+                <option value="ru">RU</option>
+                <option value="tr">TR</option>
+                <option value="jp">JP</option>
+              </select>
+            </div>
+            <div>
+              <label for="summonerName">Summoner Name</label>
+              <input type="text" name="summonerName" id="" placeholder="Summoner name">
+            </div>
+            <div>
+              <div class="summoner-submit-frame">
+                <input class="summoner-submit" type="submit" value="Submit">
+              </div>
+
+            </div>
+          </form>
+        </div>
 
 
         <div class="cards"></div>
@@ -53,6 +63,16 @@
               </svg>
             </div>
             <h2 class="summoner-name text-gradient"></h2>
+            <div class="card-count">
+              <div class="count-all">
+                <div class="count-title">Cards you've collected</div>
+                <div class="value text-gradient"></div>
+              </div>
+              <div class="count-rares">
+                <div class="count-title">Rares you've collected</div>
+                <div class="value text-gradient"></div>
+              </div>
+            </div>
           </div>
         </div>
 

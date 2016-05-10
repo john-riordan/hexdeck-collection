@@ -4,10 +4,8 @@ var Deck = {
 	init: function() {
     cards = [].slice.call(document.querySelectorAll('.card'));
 		cardCount = cards.length;
-		console.log(cardCount);
 		if (Array.isArray(cards)) {
 			for (var i = 0, j = cards.length; i < j; i++) {
-        console.log(cards[i]);
 				var aCard = new Card(cards[i]);
 				this.cardObjects.push(aCard);
 			}

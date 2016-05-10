@@ -17,12 +17,12 @@
 
 .sidepanel {
   width: 270px;
-  height: 500px;
+  height: 430px;
   border: 2px solid #573f17;
   background: $darkBlue;
   z-index: 99999;
   position: relative;
-  box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 50px 15px rgba(0, 0, 0, 0.75);
 
   &:after {
     content: '';
@@ -54,6 +54,69 @@
   	-webkit-user-drag: none;
   	-webkit-user-select: none;
   	-ms-user-select: none;
+  }
+
+  .difficulty-select {
+    display: flex;
+    flex-wrap: wrap;
+    width: 120px;
+    margin: 0 auto;
+    justify-content: center;
+    transform: translate3d(-10px,0,0);
+  }
+  .card-difficulty {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin: 10px;
+
+    &.selected {
+      box-shadow: 0 0 17px 1px rgba(0, 190, 255, 0.83);
+    }
+
+    &.not-selected {
+      box-shadow: none;
+    }
+
+    &:nth-child(3),
+    &:nth-child(4) {
+      transform: translate3d(26px, -24px, 0) rotate(45deg);
+    }
+    &:nth-child(5),
+    &:nth-child(6) {
+      transform: translate3d(0, -48px, 0) rotate(45deg);
+    }
+    &:nth-child(7),
+    &:nth-child(8) {
+      transform: translate3d(26px, -72px, 0) rotate(45deg);
+    }
+    &:nth-child(9),
+    &:nth-child(10) {
+      transform: translate3d(0, -97px, 0) rotate(45deg);
+    }
+  }
+
+  .card-count {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 1.4em;
+    width: 60%;
+    margin: 0 auto;
+    user-select: none;
+  	-moz-user-select: none;
+  	-webkit-user-drag: none;
+  	-webkit-user-select: none;
+  	-ms-user-select: none;
+  }
+  .count-all {
+    margin-bottom: 0.4em;
+  }
+  .count-title {
+    color: #2B3946;
+    margin-bottom: 0.4em;
+  }
+  .value {
+    font-size: 2.2em;
   }
 }
 

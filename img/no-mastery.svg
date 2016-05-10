@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 400" style="enable-background:new 0 0 600 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#877959;}
+	.st1{fill:none;}
+	.st2{font-family:'Beaufort';}
+	.st3{font-size:24px;}
+</style>
+<path class="st0" d="M300,74.9c-34.1,0-61.7,27.6-61.7,61.7s27.6,61.7,61.7,61.7s61.7-27.6,61.7-61.7S334.1,74.9,300,74.9z
+	 M300,189.4c-29.1,0-52.9-23.7-52.9-52.9s23.7-52.9,52.9-52.9s52.9,23.7,52.9,52.9S329.1,189.4,300,189.4z"/>
+<path class="st0" d="M282.4,105.7c-4.9,0-8.8,5.9-8.8,13.2c0,7.3,3.9,13.2,8.8,13.2s8.8-5.9,8.8-13.2
+	C291.2,111.7,287.3,105.7,282.4,105.7z"/>
+<path class="st0" d="M317.6,105.7c-4.9,0-8.8,5.9-8.8,13.2c0,7.3,3.9,13.2,8.8,13.2s8.8-5.9,8.8-13.2
+	C326.4,111.7,322.5,105.7,317.6,105.7z"/>
+<g>
+	<path class="st0" d="M317.6,176.2c-1.7,0-3.4-1-4.1-2.8c-3.5-8.8-10.7-15.5-19.7-18.5c-9-3-18.7-1.9-26.8,3c-2.1,1.3-4.8,0.6-6-1.5
+		c-1.3-2.1-0.6-4.8,1.5-6.1c10.3-6.2,22.8-7.6,34.2-3.8c11.4,3.8,20.6,12.4,25,23.6c0.9,2.3-0.2,4.8-2.4,5.7
+		C318.7,176.1,318.2,176.2,317.6,176.2z"/>
+</g>
+<rect x="37.7" y="253" class="st1" width="519.7" height="129"/>
+<text transform="matrix(1 0 0 1 40.5127 269.752)"><tspan x="0" y="0" class="st0 st2 st3">Oh no! Unfortunately you don’t have any champions </tspan><tspan x="27.6" y="27" class="st0 st2 st3">with a mastery of 4 or above. Come back when </tspan><tspan x="126.3" y="54" class="st0 st2 st3">you’ve mastered someone!</tspan></text>
+</svg>

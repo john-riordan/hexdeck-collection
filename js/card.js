@@ -30,32 +30,24 @@ Card.prototype.bindevents = function() {
 
 Card.prototype.onmousedown = function(aCard, e) {
     grabCount++;
-    console.log(grabCount);
     aCard.card.style['z-index'] = cardCount + grabCount;
     aCard.md = true;
     aCard.mx = e.pageX;
     aCard.my = e.pageY;
     aCard.pinx = aCard.cardw / 2;
     aCard.piny = aCard.cardh / 2;
-    //pinx = mx - cardx; // to pin to click point
-    //piny = my - cardy; // to pin to click point
     aCard.pinxperc = 100 - ( aCard.pinx / aCard.cardw ) * 100;
     aCard.pinyperc = 100 - ( aCard.piny / aCard.cardh ) * 100;
 }
 
 Card.prototype.onmouseup = function() {
-    // console.log('release');
     this.md = false;
-    this.card.className = "";
-    this.card.className = "card";
 }
 
 Card.prototype.onmousemove = function(e) {
     if ( this.md ) {
-        // console.log('move');
         this.mx = e.pageX;
         this.my = e.pageY;
-        this.card.className = "card dragging";
     }
 }
 
@@ -106,12 +98,12 @@ Card.prototype.loop = function(aCard) {
 	aCard.image.style[ 'transform' ] = 'scale(' + aCard.scale + ') rotateY(' + aCard.ry + 'deg) rotateX(' + aCard.rx + 'deg)';
 
 	// volume
-	aCard.majestyvoltarget = aCard.md ? 0.0 : 0;
+	aCard.majestyvoltarget = aCard.md ? 0.02 : 0;
 	aCard.majestyvol += ( aCard.majestyvoltarget - aCard.majestyvol ) * 0.1;
 	aCard.majesty.volume = aCard.majestyvol;
 
 	// volume
-	aCard.whooshvoltarget = ( Math.abs( ( aCard.ocardy - aCard.cardy ) ) + Math.abs( ( aCard.ocardx - aCard.cardx ) ) ) * 0.001;
+	aCard.whooshvoltarget = ( Math.abs( ( aCard.ocardy - aCard.cardy ) ) + Math.abs( ( aCard.ocardx - aCard.cardx ) ) ) * 0.0005;
 	aCard.whooshvol += ( aCard.whooshvoltarget - aCard.whooshvol ) * 0.1;
 	aCard.whoosh.volume = Math.min( aCard.whooshvol, 0.1 );
 
