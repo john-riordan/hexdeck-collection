@@ -153,6 +153,7 @@
     right: -15px;
   }
   .stat {
+    font-family: 'BeaufortBold';
     position: relative;
     height: 63px;
     width: 63px;
@@ -163,7 +164,6 @@
     text-align: center;
     display: flex;
     align-items: center;
-    font-weight: 600;
     box-sizing: content-box;
 
     &.stat-ad {
@@ -203,12 +203,14 @@
     letter-spacing: -3px;
     line-height: 1;
     z-index: 2;
-    margin-top: -3px;
+    margin-top: 2px;
     margin-left: -2px;
   }
 }
 
 .text-gradient {
+  font-family: 'BeaufortBold';
+	font-weight: 500;
   background: -webkit-repeating-linear-gradient(#e5cda0 0, #79622b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -220,9 +222,9 @@
   z-index: 1;
 
   .card-name {
+    font-family: 'BeaufortBold';
     font-variant: small-caps;
     font-size: 1.8em;
-    font-weight: 600;
     position: relative;
 
     &:after {
@@ -276,8 +278,8 @@
     width: 28px;
   }
   .difficulty-value {
+    font-family: 'BeaufortBold';
     line-height: 1;
-    font-weight: 600;
     font-size: 1.7em;
     width: 28px;
     text-align: center;
