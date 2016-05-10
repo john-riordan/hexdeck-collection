@@ -1,4 +1,4 @@
-![alt text](http://hexdeck.johnr.io/img/hexdeck-icon.svg "Hexdeck Collection")
+![](http://hexdeck.johnr.io/img/hexdeck-icon.svg =150x)
 #Hexdeck Collection
 A fun interactive way to view a player champion mastery as a card collection spread out on a table.
 
