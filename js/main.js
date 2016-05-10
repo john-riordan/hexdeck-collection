@@ -41,9 +41,7 @@ $('#summonerForm').submit(function(event) {
           $.each(requestData.masteryDeck.gold, function (i, ob) {
             var ad = ob.info.attack;
             var ap = ob.info.magic;
-            var td = ob.info.true;
-            var armor = ob.info.armor;
-            var mr = ob.info.mr;
+            var def = ob.info.defense;
 
             cardHeight = cardCount - count;
 
@@ -55,19 +53,18 @@ $('#summonerForm').submit(function(event) {
                       <div class="card-text">\
                         <div class="card-name text-gradient" data-text="'+ob.text.championName+'">'+ob.text.championName+'</div>\
                         <div class="card-title">'+ob.text.championTitle+'</div>\
-                        <div class="card-blurb" title="Twisted Fate is an infamous card sharp and swindler who has gambled and charmed his way across much of the known world, earning the enmity and admiration of the rich and foolish alike. He rarely takes things seriously, greeting each day with a mocking ..">Twisted Fate is an infamous card sharp and swindler who has gambled and charmed his way across much of the known world, earning the enmity and admiration of the rich and foolish alike. He rarely takes things seriously, greeting each day with a mocking ...</div>\
+                        <div class="card-blurb" title="'+ob.text.blurb+'">'+ob.text.blurb+'</div>\
                       </div>\
                       <div class="card-artwork" style="background-image: url(img/champions/'+ob.championKey+'_Splash_Centered_0.jpg);"></div>\
                     </div>\
                   </div>\
                   <div class="card-stats">\
                     <div class="stats-left">\
-                      '+(ad > 0 ? '<div class="stat"><div class="stat-value ad text-gradient">'+ad+'</div></div>': '')+'\
-                      '+(ap > 0 ? '<div class="stat"><div class="stat-value ap text-gradient">'+ap+'</div></div>': '')+'\
-                      '+(td > 0 ? '<div class="stat"><div class="stat-value td text-gradient">'+td+'</div></div>': '')+'\
+                      '+(ad > 0 ? '<div class="stat stat-ad"><div class="stat-value text-gradient">'+ad+'</div></div>': '')+'\
+                      '+(ap > 0 ? '<div class="stat stat-ap"><div class="stat-value text-gradient">'+ap+'</div></div>': '')+'\
                     </div>\
                     <div class="stats-right">\
-                      '+(armor > 0 ? '<div class="stat"><div class="stat-value armor text-gradient">'+armor+'</div></div>': '')+'\
+                      '+(def > 0 ? '<div class="stat stat-def"><div class="stat-value text-gradient">'+def+'</div></div>': '')+'\
                     </div>\
                   </div>\
                   <div class="card-difficulty">\
@@ -94,9 +91,7 @@ $('#summonerForm').submit(function(event) {
           $.each(requestData.masteryDeck.standard, function (i, ob) {
             var ad = ob.info.attack;
             var ap = ob.info.magic;
-            var td = ob.info.true;
-            var armor = ob.info.armor;
-            var mr = ob.info.mr;
+            var def = ob.info.defense;
 
             cardHeight = cardCount - count;
 
@@ -108,19 +103,18 @@ $('#summonerForm').submit(function(event) {
                       <div class="card-text">\
                         <div class="card-name text-gradient" data-text="'+ob.text.championName+'">'+ob.text.championName+'</div>\
                         <div class="card-title">'+ob.text.championTitle+'</div>\
-                        <div class="card-blurb" title="Twisted Fate is an infamous card sharp and swindler who has gambled and charmed his way across much of the known world, earning the enmity and admiration of the rich and foolish alike. He rarely takes things seriously, greeting each day with a mocking ..">Twisted Fate is an infamous card sharp and swindler who has gambled and charmed his way across much of the known world, earning the enmity and admiration of the rich and foolish alike. He rarely takes things seriously, greeting each day with a mocking ...</div>\
+                        <div class="card-blurb" title="'+ob.text.blurb+'">'+ob.text.blurb+'</div>\
                       </div>\
                       <div class="card-artwork" style="background-image: url(img/champions/'+ob.championKey+'_Splash_Centered_0.jpg);"></div>\
                     </div>\
                   </div>\
                   <div class="card-stats">\
                     <div class="stats-left">\
-                      '+(ad > 0 ? '<div class="stat"><div class="stat-value ad text-gradient">'+ad+'</div></div>': '')+'\
-                      '+(ap > 0 ? '<div class="stat"><div class="stat-value ap text-gradient">'+ap+'</div></div>': '')+'\
-                      '+(td > 0 ? '<div class="stat"><div class="stat-value td text-gradient">'+td+'</div></div>': '')+'\
+                      '+(ad > 0 ? '<div class="stat stat-ad"><div class="stat-value text-gradient">'+ad+'</div></div>': '')+'\
+                      '+(ap > 0 ? '<div class="stat stat-ap"><div class="stat-value text-gradient">'+ap+'</div></div>': '')+'\
                     </div>\
                     <div class="stats-right">\
-                      '+(armor > 0 ? '<div class="stat"><div class="stat-value armor text-gradient">'+armor+'</div></div>': '')+'\
+                      '+(def > 0 ? '<div class="stat stat-def"><div class="stat-value text-gradient">'+def+'</div></div>': '')+'\
                     </div>\
                   </div>\
                   <div class="card-difficulty">\
@@ -145,6 +139,9 @@ $('#summonerForm').submit(function(event) {
           });
 
           Deck.init();
+
+          $('#icon').attr('src', 'http://ddragon.leagueoflegends.com/cdn/'+requestData.version+'/img/profileicon/'+requestData.summonerInfo.summonerIcon+'.png');
+          $('.summoner-name').text(requestData.summonerInfo.summonerNameFull);
 
       });
   });

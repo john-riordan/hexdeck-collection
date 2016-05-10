@@ -1,0 +1,95 @@
+.sidepanel-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 350px;
+  margin-bottom: 50px;
+  display: none;
+
+  .cards-loaded & {
+    display: flex;
+  }
+}
+
+.sidepanel {
+  width: 270px;
+  height: 500px;
+  border: 2px solid #573f17;
+  background: $darkBlue;
+  z-index: 99999;
+  position: relative;
+  box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.75);
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -35px;
+    left: -2px;
+    width: 270px;
+    height: 43px;
+    background: url('../img/sidepanel-bottom.png') center;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: -11px;
+    height: 12px;
+    width: 250px;
+    background: url("../img/sidepanel-top.svg") center;
+    left: 8px;
+    z-index: -1;
+  }
+
+  .summoner-name {
+    text-align: center;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+    user-select: none;
+  	-moz-user-select: none;
+  	-webkit-user-drag: none;
+  	-webkit-user-select: none;
+  	-ms-user-select: none;
+  }
+}
+
+.summoner-icon-frame {
+  height: 128px;
+  width: 128px;
+  margin: -64px auto 0;
+  position: relative;
+}
+.summoner-icon {
+  padding: 2px;
+  background: linear-gradient(to bottom, #c4a66c 0%,#684f23 100%);
+  border-radius: 50%;
+
+  img {
+    border-radius: 50%;
+    user-drag: none;
+  	user-select: none;
+  	-moz-user-select: none;
+  	-webkit-user-drag: none;
+  	-webkit-user-select: none;
+  	-ms-user-select: none;
+  }
+}
+.summoner-icon-shape {
+  display: block;
+  position: absolute;
+  top: 28px;
+  width: 142px;
+  z-index: -1;
+  left: -7px;
+
+  .inner {
+    fill:#000A13
+  }
+  .outer {
+    fill:#573F17;
+  }
+}

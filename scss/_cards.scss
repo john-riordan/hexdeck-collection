@@ -44,7 +44,7 @@
     left: 15px;
     bottom: 15px;
     right: 15px;
-    box-shadow: 0 0px 30px 20px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0px 35px 15px rgba(0,0,0,0.5);
     z-index: -2;
   }
 }
@@ -68,7 +68,6 @@
 
   .card-gold & {
     padding: 4px;
-    // box-shadow: 0 0 50px rgba(189, 166, 132, 0.58);
   }
 }
 .card-main-wrap {

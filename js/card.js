@@ -98,7 +98,7 @@ Card.prototype.loop = function(aCard) {
 	aCard.rx += aCard.targetrx * 0.1;
 	aCard.ry += aCard.targetry * 0.1;
 
-	aCard.targetscale = aCard.md ? 1.1 - aCard.scale : 1 - aCard.scale;
+	aCard.targetscale = aCard.md ? 1.2 - aCard.scale : 1 - aCard.scale;
 	aCard.scale += aCard.targetscale * 0.2;
 
 	aCard.card.style[ 'transform' ] = 'translate3d(' + aCard.cardx + 'px, ' + aCard.cardy + 'px, 0) rotate(' + aCard.rot + 'deg)';
@@ -127,7 +127,7 @@ Card.prototype.init = function(cardObject) {
     this.image = this.card.querySelector( '.card-wrap' );
     this.cardw = 260;
     this.cardh = 370;
-    this.cardx = randomIntFromInterval(0,wInner);
+    this.cardx = randomIntFromInterval(250,wInner);
     this.cardy = randomIntFromInterval(0,hInner);
     this.rot = randomIntFromInterval(-13,13);
     this.ocardx = this.cardx;

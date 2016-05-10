@@ -26,9 +26,16 @@ $result = json_decode($result, true);
 $summonerData['version'] = $result[0];
 
 // Get champion data from JSON file
-$file = file_get_contents('champion-data.json');
-$json = json_decode($file, true);
-$summonerData['championStaticData'] = $json['data'];
+$championList_url = 'https://global.api.pvp.net/api/lol/static-data/na/v1.2/champion?champData=blurb,info&api_key='.$apiKeyRiot;
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_URL,$championList_url);
+$championDataList = file_get_contents($championList_url);
+$championDataList = json_decode($championDataList, true);
+$summonerData['championStaticData'] = $championDataList['data'];
+// $file = file_get_contents('champion-data.json');
+// $json = json_decode($file, true);
+// $summonerData['championStaticData'] = $json['data'];
 
 
 // Get summoner Info

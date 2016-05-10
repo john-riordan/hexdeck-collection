@@ -39,11 +39,23 @@
         </form>
 
 
-        <div class="container">
-          <ul class="cards">
+        <div class="cards"></div>
 
-          </ul>
+        <div class="sidepanel-frame">
+          <div class="sidepanel">
+            <div class="summoner-icon-frame">
+              <div class="summoner-icon">
+                <img id="icon" alt="" />
+              </div>
+                <svg class="summoner-icon-shape" x="0px" y="0px" viewBox="0 0 144 73.3" style="enable-background:new 0 0 144 73.3;" xml:space="preserve">
+              	<path class="inner" d="M10.6,72.3C4.3,61.5,1,49.2,1,36.6C1,24.1,4.3,11.8,10.6,1h122.8c6.3,10.8,9.6,23.1,9.6,35.6 c0,12.5-3.3,24.9-9.6,35.6H10.6z"/>
+              	<path class="outer" d="M132.8,2c6,10.5,9.2,22.5,9.2,34.6c0,12.2-3.2,24.1-9.2,34.7H11.2C5.2,60.8,2,48.8,2,36.6 	C2,24.5,5.2,12.5,11.2,2H132.8 M134,0H10C3.7,10.7,0,23.3,0,36.6C0,50,3.7,62.6,10,73.3H134c6.4-10.7,10-23.3,10-36.7 C144,23.3,140.3,10.7,134,0L134,0z"/>
+              </svg>
+            </div>
+            <h2 class="summoner-name text-gradient"></h2>
+          </div>
         </div>
+
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
@@ -55,7 +67,7 @@
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
             e.src='https://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+            ga('create','UA-46301793-5','auto');ga('send','pageview');
         </script>
     </body>
 </html>
