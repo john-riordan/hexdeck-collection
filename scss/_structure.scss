@@ -28,15 +28,18 @@ body {
 	background-position: top center;
   color: $gold;
 	overflow: hidden;
-  // font-family: 'Beaufort', sans-serif;
 	font-family: 'beaufortregular', 'Georgia', sans-serif;
 	font-weight: normal;
 	font-style: normal;
-  cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/836/hearthstone-cursor.png) 10 2, auto;
+  // cursor: url(../img/cursor.png) 10 2, auto;
+	cursor: -webkit-grab;
+	cursor: -moz-grab;
 	-webkit-font-smoothing: antialiased;
 
 	&:active {
-		cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/836/hearthstone-click.png) 10 2, auto;
+		// cursor: url(../img/cursor-click.png) 10 2, auto;
+		cursor: -webkit-grabbing;
+		cursor: -moz-grabbing;
 	}
 }
 

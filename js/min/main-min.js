@@ -267,12 +267,12 @@ Card.prototype.loop = function(aCard) {
 	aCard.image.style[ 'transform' ] = 'scale(' + aCard.scale + ') rotateY(' + aCard.ry + 'deg) rotateX(' + aCard.rx + 'deg)';
 
 	// volume
-	aCard.majestyvoltarget = aCard.md ? 0.02 : 0;
+	aCard.majestyvoltarget = aCard.md ? 0.00 : 0;
 	aCard.majestyvol += ( aCard.majestyvoltarget - aCard.majestyvol ) * 0.1;
 	aCard.majesty.volume = aCard.majestyvol;
 
 	// volume
-	aCard.whooshvoltarget = ( Math.abs( ( aCard.ocardy - aCard.cardy ) ) + Math.abs( ( aCard.ocardx - aCard.cardx ) ) ) * 0.0005;
+	aCard.whooshvoltarget = ( Math.abs( ( aCard.ocardy - aCard.cardy ) ) + Math.abs( ( aCard.ocardx - aCard.cardx ) ) ) * 0.001;
 	aCard.whooshvol += ( aCard.whooshvoltarget - aCard.whooshvol ) * 0.1;
 	aCard.whoosh.volume = Math.min( aCard.whooshvol, 0.1 );
 
@@ -317,7 +317,7 @@ Card.prototype.init = function(cardObject) {
     this.whoosh.addEventListener( 'canplaythrough', function() {
         self.audioload(self);
     });
-    this.whoosh.src = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/836/hs-whoosh.ogg';
+    this.whoosh.src = '../img/sound-whoosh.ogg';
     this.whoosh.volume = 0;
     this.whoosh.loop = true;
 
@@ -327,7 +327,7 @@ Card.prototype.init = function(cardObject) {
     this.majesty.addEventListener( 'canplaythrough', function() {
         self.audioload(self);
     });
-    this.majesty.src = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/836/hs-majesty.ogg';
+    this.majesty.src = '../img/sound-sprinkle.ogg';
     this.majesty.volume = 0;
     this.majesty.loop = true;
 }

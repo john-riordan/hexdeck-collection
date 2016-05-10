@@ -17,8 +17,9 @@
 
         <div class="summoner-form-frame">
           <form id="summonerForm" class="summoner-form" action="">
+            <img class="hexdeck-icon" src="/img/hexdeck-icon.svg" alt="" />
             <h1 class="form-title text-gradient">Hexdeck Collection</h1>
-            <p>Mastery Champions in League and earn their cards! If you manage. Once you've reached mastery level 4 youll earn thier 'base' card. If you manage to hit mastery 5 and earn an S on them you'll earn a <strong>rare</strong> version of the card. Start collecting!</p>
+            <p>Master Champions in League and earn their cards! If you manage. Once you've reached mastery level 4 youll earn thier 'base' card. If you manage to hit mastery 5 and earn an S on them you'll earn a <strong>rare</strong> version of the card. Start collecting!</p>
             <div>
               <label for="region">Region</label>
               <select class="" name="summonerRegion">

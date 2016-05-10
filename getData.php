@@ -1,5 +1,4 @@
 <?php
-// $apiKeyRiot = 'a23d3d3f-d47d-4f8e-a9ce-ca2b0cef2cef';
 include('config.php');
 
 $errors         	 	 = array();      // array to hold validation errors
@@ -33,9 +32,6 @@ curl_setopt($ch, CURLOPT_URL,$championList_url);
 $championDataList = file_get_contents($championList_url);
 $championDataList = json_decode($championDataList, true);
 $summonerData['championStaticData'] = $championDataList['data'];
-// $file = file_get_contents('champion-data.json');
-// $json = json_decode($file, true);
-// $summonerData['championStaticData'] = $json['data'];
 
 
 // Get summoner Info

@@ -43,15 +43,20 @@
     left: 8px;
   }
 
+.hexdeck-icon {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+}
   .form-title {
     text-align: center;
     font-size: 2em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.2em;
   }
   p {
-    max-width: 400px;
-    font-size: 1em;
-    line-height: 1.4em;
+    max-width: 440px;
+    font-size: 1.1em;
+    line-height: 1.3em;
     text-align: center;
     margin-bottom: 3em;
     margin-top: 0;
