@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
+    <body class="">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -50,6 +50,7 @@
                 <input class="summoner-submit" type="submit" value="Submit">
               </div>
             </div>
+            <div class="loading-animation"></div>
           </form>
         </div>
 
@@ -69,12 +70,12 @@
             </div>
             <h2 class="summoner-name text-gradient"></h2>
             <div class="card-count">
-              <div class="count-all">
+              <div class="count-all" title="Earn a champion card by reaching mastery level 4 on that champion.">
                 <div class="count-title">Total Cards</div>
                 <div class="value text-gradient"></div>
               </div>
-              <div class="count-rares">
-                <div class="count-title">Rares</div>
+              <div class="count-rares" title="Earn the rare version of a card by reaching mastery level 5 and earning an S on that champion.">
+                <div class="count-title">Rares Collected</div>
                 <div class="value text-gradient"></div>
               </div>
             </div>

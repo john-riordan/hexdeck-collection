@@ -43,11 +43,11 @@
     left: 8px;
   }
 
-.hexdeck-icon {
-  display: block;
-  width: 150px;
-  margin: 0 auto;
-}
+  .hexdeck-icon {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+  }
   .form-title {
     text-align: center;
     font-size: 2em;
@@ -134,7 +134,22 @@
     font-variant: small-caps;
   }
 }
+.loading-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(../img/ring.svg) center no-repeat transparentize($darkBlue,0.1);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.2s ease-in-out;
 
+  .cards-loading & {
+    visibility: visible;
+    opacity: 1;
+  }
+}
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: darken($gold,25);

@@ -20,7 +20,7 @@ $('input[name="summonerName"]').keyup(function(){
 
 $('#summonerForm').submit(function(event) {
 
-      console.log("Summoner form submitted!");
+      $("body").addClass('cards-loading');
 
       event.preventDefault();
 
@@ -40,7 +40,9 @@ $('#summonerForm').submit(function(event) {
           data        : summonerData,
           dataType    : 'json',
           encode      : true
-      }).done(function(masteryData) {
+      })
+      .done(function(masteryData) {
+          $('body').removeClass('cards-loading');
           $('body').addClass('cards-loaded');
           requestData = masteryData;
           console.log(requestData);
