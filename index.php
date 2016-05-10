@@ -3,8 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
+        <title>Hexdeck Collection</title>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <meta name="description" content="Master Champions in League of Legends and earn their cards! If you manage to reach mastery level 4 you'll earn their basic card. Grind out mastery level 5 and earn yourself an S on that champion and a rare version of the card will be added to your collection!">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/main.css">
@@ -38,7 +40,7 @@
             </div>
             <div>
               <label for="summonerName">Summoner Name</label>
-              <input type="text" name="summonerName" id="" placeholder="Summoner name">
+              <input type="text" name="summonerName" id="" placeholder="Summoner Name" autocomplete="off">
             </div>
             <div>
               <div class="summoner-submit-frame">
@@ -77,6 +79,7 @@
           </div>
         </div>
 
+        <p class="get-at-me">This was just a quick experiment I threw together over a wekeend for the <a href="https://developer.riotgames.com/discussion/announcements/show/eoq3tZd1" target="_blank">2016 Riot Games API Challenge</a>. If you would like to see this further developed, reach out to me on twitter <a href="http://twitter.com/johnriordan" target="_blank">@johnriordan</a></p>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
