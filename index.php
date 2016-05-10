@@ -19,7 +19,7 @@
           <form id="summonerForm" class="summoner-form" action="">
             <img class="hexdeck-icon" src="/img/hexdeck-icon.svg" alt="" />
             <h1 class="form-title text-gradient">Hexdeck Collection</h1>
-            <p>Master Champions in League of Legends and earn their cards! If you manage to reach mastery level 4 you'll earn their <strong>basic</strong> card. Grind out mastery level 5 and earn yourself earn an S on that champion and a <strong>rare</strong> version of the card will be added to your collection!</p>
+            <p>Master Champions in League of Legends and earn their cards! If you manage to reach mastery level 4 you'll earn their <strong>basic</strong> card. Grind out mastery level 5 and earn yourself an S on that champion and a <strong>rare</strong> version of the card will be added to your collection!</p>
             <div>
               <label for="region">Region</label>
               <select class="" name="summonerRegion">
